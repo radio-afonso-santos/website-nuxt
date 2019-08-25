@@ -1,5 +1,7 @@
 # Website da Rádio Afonso Santos criado com a framework Nuxt.js
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a2d7f851-340a-4f92-9a21-e25cfc9652bf/deploy-status)](https://app.netlify.com/sites/radioafonsosantos-nuxt/deploys)
+
 ## Recursos Utilizados
 
 - [Bootswatch](https://bootswatch.com/darkly) para o tema do website
