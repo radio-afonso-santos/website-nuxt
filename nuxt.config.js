@@ -42,7 +42,9 @@ export default {
    */
   modules: ['@nuxtjs/pwa'],
 
-  // Manifesto
+  /*
+   ** Manifest Option
+   */
   manifest: {
     name: 'Rádio Afonso Santos',
     lang: 'pt'
