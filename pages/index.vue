@@ -1,63 +1,20 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        Yet Another Nuxt.js Website
-      </h1>
-      <h2 class="subtitle">
-        Website da Rádio Afonso Santos, portado para Nuxt.js
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div class="container mt-3">
+    <h1>About</h1>
+    <p class="text-muted mt-3 text-justify h5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae eos iure laudantium quod similique dolorum accusantium eius ad maiores eligendi veniam
+      id, tempore perferendis. Hic, illo totam sequi laboriosam est sed nisi animi saepe libero quaerat voluptate architecto aspernatur iusto, aperiam debitis
+      tempora doloremque in enim nostrum sit inventore?
+    </p>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue';
-
-export default {
-  components: {
-    Logo
-  }
-};
+export default {};
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+<style scoped>
+p {
+  line-height: 1.4;
 }
 </style>
