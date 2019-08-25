@@ -36,7 +36,7 @@ $(document).ready(function() {
   const imagem = document.getElementById('imagem');
   const status = document.getElementById('status');
   const nome_dj = document.getElementById('nome-dj');
-  const ouvintes = document.getElementById('ouvintes');
+  // const ouvintes = document.getElementById('ouvintes');
 
   // Vai Tocar
   const coluna_seguinte = document.getElementById('coluna-seguinte');
@@ -128,6 +128,7 @@ $(document).ready(function() {
      *  Verifica o número de ouvintes e atualiza
      *  o texto de acordo
      */
+    /*
     if (resposta.listeners.current > 1) {
       // Caso sejam mais que 1 ouvinte
       $(ouvintes).text(resposta.listeners.unique + ' ouvintes');
@@ -138,6 +139,7 @@ $(document).ready(function() {
       // Caso não haja ouvintes
       $(ouvintes).text('Nenhum Ouvinte');
     }
+    */
 
     /*
      *  Adiciona a classe 'active' ao horário respetivo

@@ -19,7 +19,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbar">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <nuxt-link to="/" class="nav-link">Página Inicial</nuxt-link>
         </li>
@@ -31,13 +31,6 @@
         </li>
         <li class="nav-item">
           <nuxt-link to="/contactos" class="nav-link">Contactos</nuxt-link>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <h5>
-            <span id="ouvintes" class="d-none d-sm-block badge badge-dark"></span>
-          </h5>
         </li>
       </ul>
     </div>
