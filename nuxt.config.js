@@ -40,15 +40,13 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
-  ],
-  /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
-   */
-  axios: {},
+  modules: ['@nuxtjs/pwa'],
+
+  // Manifesto
+  manifest: {
+    name: 'Rádio Afonso Santos',
+    lang: 'pt'
+  },
   /*
    ** Build configuration
    */
