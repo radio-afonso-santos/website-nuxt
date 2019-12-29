@@ -1,7 +1,5 @@
 # Website da Rádio Afonso Santos, portado para Nuxt.js
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a2d7f851-340a-4f92-9a21-e25cfc9652bf/deploy-status)](https://app.netlify.com/sites/radioafonsosantos-nuxt/deploys)
-
 #### O website da Rádio Afonso Santos portado para a framework Nuxt.js (Work in Progress)
 
 ## Recursos Utilizados
@@ -25,10 +23,6 @@
 ### Outros
 
 - [AzuraCast](https://www.azuracast.com) para os dados da transmissão e API
-
-## Documentação
-
-Visite [esta página](https://docs.afonsosantos-dev.tk/projetos/radioafonsosantos/website-nuxt/) para a documentação deste projeto.
 
 ## Licença
 
